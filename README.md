@@ -16,3 +16,5 @@
  * RT : ~ 400-500
  * Likes : ~ 700-800
  * Follow : ~ 200-500 ?? A VOIR
+
+### Twitter a récemment déployé beaucoup de moyens et d'efforts à bannir les bots notamment suite aux bots russes qui auraient interférés dans les élections américaines. Attention, à ne pas pratiquer le "mass following" sinon, vous ne pourrez plus vous abonnez, likez ou retweeté pendant un certain temps (48 h ou 71h, ce qui est embarassant). Il faut être régulier mais raisonnable et patient car tout cela prend du temps.
