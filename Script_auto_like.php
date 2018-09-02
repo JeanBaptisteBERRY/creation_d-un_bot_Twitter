@@ -4,12 +4,10 @@
 session_start();
 require_once("C:/Users/BigData/Downloads/twitteroauth-master/twitteroauth-master/twitteroauth/twitteroauth.php"); //Path to twitteroauth library
 
-$search = "car";
-$notweets = 50;
-$consumer_key = "wm2a0vlv7ZrHhYIBgClbFLZ2R";
-$consumer_secret = "MTCkdtc6aazNOD3iGM6Oha0p76cl39Dtpf1bMNCfMqLmXytEdi";
-$access_key = "910800754910343169-KpvUnxDOwKF98xkWaZmxcxrIcwR95Jn";
-$access_secret = "9bOcBxo91pBzueNiIuQLm2qD6SZkTowfkL9oYaOuIGvlV";
+$consumer_key = "";//YOUR CONSUMER KEY
+$consumer_secret = "";//YOUR CONSUMER KEY SECRET
+$access_key = "";//YOUR TOKEN ACCESS
+$access_secret = "";//YOUR TOKEN ACCESS SECRET
 
 function getConnectionWithAccessToken($cons_key, $cons_secret, $oauth_token, $oauth_token_secret) {
   $connection = new TwitterOAuth($cons_key, $cons_secret, $oauth_token, $oauth_token_secret);
@@ -19,8 +17,9 @@ function getConnectionWithAccessToken($cons_key, $cons_secret, $oauth_token, $oa
 $connection = getConnectionWithAccessToken($consumer_key, $consumer_secret, $access_key, $access_secret);
 
 $theSearch = [
- 'q' => '#Kamikaze',
- 'count' => 780
+ 'q' => '#Kamikaze',//CHOOSE HERE YOUR HASHTAGS
+ 'count' => 780//NUMBER OF TWEETS
+  // 'location' => 'Paris', YOU CAN ADD THE LOCATION HERE
 ];
  
 // 'location' => 'Paris',
@@ -31,19 +30,5 @@ $connection->post('favorites/create', [
  'id' => $status->id_str
 ]);
 }
-
-
-//$connection->post('favorites/create', [
-// 'id' => $status->id_str
-//]);
-
-//$connection->post('statuses/retweet', [
-// 'id' => $status->id_str
-//]);
-
-
-
-
-
 
 ?>
