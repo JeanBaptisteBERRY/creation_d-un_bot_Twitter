@@ -1,4 +1,4 @@
-### creation_d-un_bot/Scripts_Twitter qui vont nous permettre de :
+## Création_d-un_bot/Scripts_Twitter qui vont nous permettre de :
 * autoliké/retweeté automatiquement des tweets en fonction de certains critères (hashtags, location, langue,etc.)
 * s'auto-abonner à des comptes de certains comptes particuliers ou de certains critères comme les hashtags mentionnés, la location de l'utilisateur, la langue,etc.
 
@@ -17,4 +17,5 @@
  * Likes : ~ 700-800
  * Follow : ~ 200-500 ?? A VOIR
 
-### Twitter a récemment déployé beaucoup de moyens et d'efforts à bannir les bots notamment suite aux bots russes qui auraient interférés dans les élections américaines. Attention, à ne pas pratiquer le "mass following" sinon, vous ne pourrez plus vous abonnez, likez ou retweeté pendant un certain temps (48 h ou 71h, ce qui est embarassant). Il faut être régulier mais raisonnable et patient car tout cela prend du temps.
+#### Twitter a récemment déployé beaucoup de moyens et d'efforts à bannir les bots notamment suite aux bots russes qui auraient interférés dans les élections américaines. 
+#### Attention, à ne pas pratiquer le "mass following" sinon, vous ne pourrez plus vous abonnez, likez ou retweeté pendant un certain temps (48 h ou 71h en général).
