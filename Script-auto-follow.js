@@ -1,3 +1,10 @@
+/*
+Pour lancer ce script, il faut :
+- aller à la page abonnés d'un compte twitter,
+- dézoomer au maximum (cela permettra d'enchaîner plus de follows),
+- clic droit --> code source de la page puis console et on copie-colle le script ci-dessu
+*/
+
 var FOLLOW_PAUSE = 1250;
 var FOLLOW_RAND = 250; 
 var PAGE_WAIT = 2000;
