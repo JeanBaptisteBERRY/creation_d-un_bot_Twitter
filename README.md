@@ -1,6 +1,6 @@
 ## Création_d-un_bot/Scripts_Twitter qui vont nous permettre de :
-* autoliké/retweeté automatiquement des tweets en fonction de certains critères (hashtags, location, langue,etc.)
-* s'auto-abonner à des comptes de certains comptes particuliers ou de certains critères comme les hashtags mentionnés, la location de l'utilisateur, la langue,etc.
+* autoliké/retweeté automatiquement des tweets en fonction de certains critères (hashtags, location, langue,etc.),
+* s'auto-abonner à certains comptes particulier (cela peut être fait en fonction de certains critères comme les hashtags mentionnés, la location de l'utilisateur, la langue,etc.).
 
 #### Bien évidemment Twitter restreint l'utilisation de bots et risque de très facilement vous exclure pendant un certain temps si vous faites une utilisation trop abusive de ces scripts. Techniquement, les limites de twitter sont les suivantes :
 
